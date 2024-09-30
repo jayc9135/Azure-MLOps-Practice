@@ -7,9 +7,9 @@ command: >-
 inputs:
   training_data: 
     type: uri_folder 
-    path: ./experimentation/data
+    path: azureml://subscriptions/6e4ca41d-1c14-4f66-8653-00fa0abbf176/resourcegroups/Azure_MLOps_Practice/workspaces/Compute1_Azure_MLOps/datastores/workspaceblobstore/paths/LocalUpload/a5b05a17f213e8e12e54948a8e3d1dfa/data/
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: azureml:Compute1_Azure_MLOps
-experiment_name: 
+experiment_name: diabetes-data-example
 description: Apply LogisticRegression on the diabetes data

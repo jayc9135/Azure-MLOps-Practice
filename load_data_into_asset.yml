@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/dataAsset.schema.json
+name: diabetes-dev-folder
+description: Load data from the local machine to Azure data asset
+type: uri_folder
+path: ./experimentation/data
